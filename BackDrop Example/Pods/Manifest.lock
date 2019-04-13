@@ -1,0 +1,16 @@
+PODS:
+  - SWBackDrop (1.0.0)
+
+DEPENDENCIES:
+  - SWBackDrop (from `../SWBackDrop/`)
+
+EXTERNAL SOURCES:
+  SWBackDrop:
+    :path: "../SWBackDrop/"
+
+SPEC CHECKSUMS:
+  SWBackDrop: 99c46957fe5cf075da68a67a11d5e9ac08c2b57b
+
+PODFILE CHECKSUM: e32d61f394e524a6a531991e43af8d21c5cab664
+
+COCOAPODS: 1.7.0.beta.3

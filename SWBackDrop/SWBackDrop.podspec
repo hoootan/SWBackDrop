@@ -1,17 +1,22 @@
 
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 
-  s.name               = "SWBackDrop"
-  s.version            = "1.0.0"
-  s.summary            = "A Simple and Sweety BackDrop for iOS"
-#s.description        = ""
-  s.homepage           = "https://github.com/hoootan/SWBackDrop"
-  s.license            = "MIT"
-  s.author             = { "Hootan" => "hoootaan@gmail.com" }
-  s.social_media_url   = "http://twitter.com/hoootaan"
-  s.platform           = :ios, "10.0"
-  s.source             = { :git => "https://github.com/hoootan/SWBackDrop.git", :tag => "1.0.0" }
+  spec.name         = "SWBackDrop"
+  spec.version      = "1.0.0"
+  spec.summary      = "A Simple and Sweety BackDrop for iOS"
 
-  s.source_files  = "SWBackDrop/**/*"
+  spec.homepage     = "https://github.com/hoootan/SWBackDrop"
+
+  spec.license      = "MIT"
+
+  spec.author             = { "Hootan" => "hoootaan@gmail.com" }
+  spec.social_media_url   = "https://twitter.com/hoootaan"
+
+  spec.platform     = :ios, "10.0"
+
+  spec.source       = { :git => "https://github.com/hoootan/SWBackDrop.git", :tag => "1.0.0" }
+  spec.source_files  = "SWBackDrop/**/*"
+  spec.swift_versions = [4.2]
+  spec.exclude_files = "SWBackDrop/**/*.plist"
 
 end

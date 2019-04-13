@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct SWBackDrop {
+public struct SWBackDrop {
     
     var parentViewController: UIViewController!
     var backDropController: UIViewController!
