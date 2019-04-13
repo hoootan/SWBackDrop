@@ -6,5 +6,5 @@
 ![Platform](https://img.shields.io/cocoapods/p/SWBackDrop.svg)
 [![Twitter](https://img.shields.io/badge/twitter-@hoootaan-blue.svg?style=flat)](https://twitter.com/hoootaan)
 
-(https://ibb.co/K5vFXJH)(https://ibb.co/k9yndgj)
+<img src="https://i.ibb.co/cynD1jd/1.png" alt="1" border="0" width=300 height=300> <img src="https://i.ibb.co/xfsv4SW/2.png" alt="2" border="0" width=300 height=300>
 
