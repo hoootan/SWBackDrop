@@ -1,5 +1,5 @@
 PODS:
-  - SWBackDrop (1.0.0)
+  - SWBackDrop (1.0.1)
 
 DEPENDENCIES:
   - SWBackDrop (from `../SWBackDrop/`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../SWBackDrop/"
 
 SPEC CHECKSUMS:
-  SWBackDrop: 99c46957fe5cf075da68a67a11d5e9ac08c2b57b
+  SWBackDrop: 3be0a05b6f506ff7d8edbdad74bc5bf22959956b
 
 PODFILE CHECKSUM: e32d61f394e524a6a531991e43af8d21c5cab664
 

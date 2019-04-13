@@ -41,7 +41,7 @@ public struct SWBackDrop {
         }
     }
     
-    init(parentViewController: UIViewController,
+    public init(parentViewController: UIViewController,
          backDropController: UIViewController,
          dropInset: CGFloat,topInset:CGFloat? = 50) {
         
