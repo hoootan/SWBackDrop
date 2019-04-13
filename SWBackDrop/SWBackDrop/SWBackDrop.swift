@@ -30,7 +30,7 @@ public struct SWBackDrop {
     var embeddedView: UIView?
     var embeddedViewController: UIViewController?
     
-    var isFocusedEmbeddedController: Bool = false {
+    public var isFocusedEmbeddedController: Bool = false {
         didSet {
             
             let weakSelf = self
@@ -69,12 +69,12 @@ public struct SWBackDrop {
         return embeddedFrame
     }
     
-    mutating func setupBackDroppedController() {
+    public mutating func setupBackDroppedController() {
         self.parentViewController.view.addSubview(self.containerView)
         self.insert(self.backDropController)
     }
     
-    mutating func viewDidLayoutSubviews(){
+    public mutating func viewDidLayoutSubviews(){
         
         let embeddedFrame = frameForEmbeddedController(view: self.parentViewController.view)
         self.containerView.frame = embeddedFrame

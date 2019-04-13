@@ -22,6 +22,9 @@
                                 <rect key="frame" x="164" y="44" width="86" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Drop 👇"/>
+                                <connections>
+                                    <action selector="dropVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cqg-W6-0ls"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.32156862749999998" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

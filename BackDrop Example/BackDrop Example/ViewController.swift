@@ -16,10 +16,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        backDrop = SWBackDrop()
-
+        let droppedVC = storyboard?.instantiateViewController(withIdentifier: "droppedVC") as! DroppedViewController
+        backDrop = SWBackDrop(parentViewController: self, backDropController: droppedVC, dropInset: 200, topInset: 100)
+        backDrop.setupBackDroppedController()
+        
     }
 
-
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        backDrop.viewDidLayoutSubviews()
+    }
+    
+    @IBAction func dropVC(_ sender: Any) {
+        backDrop.isFocusedEmbeddedController = !backDrop.isFocusedEmbeddedController
+    }
+    
 }
 
